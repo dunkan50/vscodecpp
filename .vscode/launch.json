@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "(gdb) Launch",
+        "type": "cppdbg",
+        "request": "launch",
+        //the .exe file comes up when you build your program
+        //i did a gdb build as fro me 
+        "program": "C:/Users/beeper-pc/Documents/cpp/new/a.exe",
+        "args": [],
+        "stopAtEntry": false,
+        "cwd": "${workspaceRoot}",
+        "environment": [],
+        "externalConsole": true,
+        "MIMode": "gdb",
+        //miDebuggerPath i sthe the location of the gdb.exe file in your computer
+        //remember when you copy and paste the path to change the "\" to  "/"
+        "miDebuggerPath": "C:/gcc/bin/gdb.exe",
+        "setupCommands": [{
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+        }]
+    }]
+}
