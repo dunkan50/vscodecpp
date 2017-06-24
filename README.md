@@ -15,7 +15,7 @@ Installation
 ```
 After the  download you can follow the basic install instruction that come with the instaler.
 
-Further instrution will be found in comments in the ```json.launch``` and ```json.task``` files
+Further instrution will be found in comments in the ```json.launch``` and ```json.task``` files found in the vscode folder
 
 ```
 ISSUES
